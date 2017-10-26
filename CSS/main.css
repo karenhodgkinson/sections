@@ -8,4 +8,31 @@ html {
 
 body {
   font-family: Lato, sans-serif;
+  background-color: #eee9de;
+  color: #333;
+  margin: 1.5rem;
+  line-height: 1.5;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  max-width: 25em;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+
+p {
+  max-width: 25em;
+}
+
+a {
+  border: 3px solid #666;
+  border-radius: 5px;
+  padding: .75em;
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
 }
