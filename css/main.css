@@ -1,5 +1,10 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  width: 100%;
+  display: inline-block;
 }
 
 *, *::before, *::after {
@@ -7,15 +12,22 @@ html {
 }
 
 body {
-  font-family: Lato, sans-serif;
   background-color: #eee9de;
   color: #333;
-  margin: 1.5rem;
-  line-height: 1.5;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
   width: 100%;
-  text-align: left;
-  font-weight: bold;
-  max-width: 25em;
+}
+
+section {
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-bottom: 2em;
+  padding-top: .75em;
 }
 
 img {
@@ -23,16 +35,36 @@ img {
   width: 100%;
 }
 
-
-p {
+.pyramid {
   max-width: 25em;
+  display: inline-block;
+  text-align: left;
+  padding-top: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0;
 }
 
-a {
+.giza {
+  display: inline-block;
+  max-width: 25em;
+  text-align: left;
+  padding-top: .75em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: .5em;
+
+}
+
+.btn {
   border: 3px solid #666;
   border-radius: 5px;
   padding: .75em;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+a {
   text-decoration: none;
   color: #333;
-  display: inline-block;
 }
